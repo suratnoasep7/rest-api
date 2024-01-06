@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "0ad1eee6-c770-4659-b695-23e5f19f200d",
+		"name": "Laravel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin@admin.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:8000/api/login"
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "admin@admin.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								}
+							]
+						},
+						"url": "http://localhost:8000/api/login"
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"success\": true,\r\n    \"data\": {\r\n        \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWNmNWQ2MzA3NjRjNzYwZTk5NzM2ZGQ1NTIzNGFjMGM0YjZiMThhNmZjMTkzNzMwZDI4OWQxMWUwNTg0ZjBhYWY0YzgzYzZlOTVkNjJiYmIiLCJpYXQiOjE3MDQ1MTQ4MTgsIm5iZiI6MTcwNDUxNDgxOCwiZXhwIjoxNzM2MTM3MjE4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.eeebIy98bWqoQplznx-IkweotlE3xnlwmg4Hy-zbDWcNybzrjjoF0vG-LcZ0KZnbMn7POG2vJGzH5RzgYiDNg3blr0Qr2TmvbZ3eUWYOEgb0GrQmkue3Q75p2g3lp7rP5p3Hqx212luA2AtgtCaIP0FrALWoY7ug3tarsBBYgH8zgrdPFn32kGyIXzo1hyhA3fLqG0kj-32K4KHYAidoSq7If-TIpPw5v3gkOUE9At_9Gbhnm-yj-iwMYl20vufpJFX_p4CINPqsKzfilyq0wmHjXioz32Fk9eFaHNF2J3AJtZPEi4amXcPfnzFmQ6dNpT6o8s7mHru5Ghvj0g1ILRS1el9FJmYUNYA5Om44bm-hhUK4GfzCkOOvumBS7uU7i8ueI8PmRALFkVSkJkIzkJMjxgaSy1PaHRMVEvLCqm-H1pVgIDwT3o24yQV0dQw5u4s9iR7RkC-gBJJgWvFW19djFpuQ_ijwHp_VbYIyXSlPZcet_J0Ye1oearCfTFxPs_8s8mf9NrEgS_bwIv2szfqH0bdRpB_RQkTW4n7acP0gYgNith_DhzGOKVbfxgu2dCwkTv34kkCI5ysEPVRCogZQ9bd1z6xHN-u2lQQ1ltYkJKxOO4UQWUmXVBuUre_svzr9uxjkNIL7PpyzGBRe9IabY1vJt9hzAEosuIV6Rsg\",\r\n        \"name\": \"admin admin\"\r\n    },\r\n    \"message\": \"User login successfully.\"\r\n}"
+				}
+			]
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "ad",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ad@admin.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "12345678",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:8000/api/register"
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first_name",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "ad",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "ad@admin.com",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "c_password",
+									"value": "12345",
+									"type": "text"
+								}
+							]
+						},
+						"url": "http://localhost:8000/api/register"
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"success\": true,\r\n    \"data\": {\r\n        \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzNhNWVlNjUyMWY1MzUyYWIwMjllNzcxM2EwZDc5NzJjMTRiMTE3MzNhYWRjYzRmZDEzNjY5MzhkYmJiOThjMGYxY2JjOThkNzQyMTVhOWEiLCJpYXQiOjE3MDQ1MTQ5ODksIm5iZiI6MTcwNDUxNDk4OSwiZXhwIjoxNzM2MTM3Mzg5LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.Adw_B5KGyS_Y2B3Xx0PUtnhGZLA6ZU9aazChVsQf_A6pnlNvwU-Ufc5FgZTzAYE8tHtJtyzPGuduYTiPepUl-WZrIbDVjPgfqMh6Kh1P5OxMsQckvIvZExNIVZDAcqlWSmDs1oOjsngVAvNjVbKSnTMNpidCaYTv3kMhxX-53HHl8j5lsLE7mcmNKstgQ_xDy7CTMrkVy5hmi6FVqa5xoOtJuQM07kpwgLprIQZ-Fo2gCJqMZ6kDAwmvP59SNKIrduyQXN-P1CyJLsL_JY8ydR_4jD-4IyavymoM7DeHoZ-eFTpvN8HJtX6wnxBseOnC1S3Lp3qO1grlCh7PwRjtjyEeefQBR4Y2xhv0FgN-XzwZMWLZsVx3G1WH0afSYF1hoS8KFLe-xdc-2pfpP7qvVPZyVwqkjwhZes74R3wMg8vJ7ycygt1nRL8jIXVvkLPvtfp_RFHkKeX56EcO-QvJwRnhwqHFJiCM4WLV6AcalDISOCqCzQEd7F2sRMixLVoPuCdDDa4-z2W9yzCEwg13JmH9xJN4sARbEczvnotns2qksjXPkYDVPIaiq7_4uK0PzQ1caOr_h_C_uHF4_StZG0Av9-UKl2C_ljt9lDneQdIT0fVTPtWi0utggDJd6ZGfSoX_IP1xsjuVRXO7T-u6YeaZb-b5Bd0-L_ZXY0IR93k\",\r\n        \"name\": null\r\n    },\r\n    \"message\": \"User register successfully.\"\r\n}"
+				}
+			]
+		},
+		{
+			"name": "List Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzBiNGY3ZWMzNjI4ZmUzM2Y5MmJjODEzNTdkYWZhNzNiMGZiZjcxMTVlOTQ2MmRjZjUwMTBjOWE2NDExZGVmYmY1ZmZkNjk5NDcwY2U3MjAiLCJpYXQiOjE3MDQ1MTU3MzMsIm5iZiI6MTcwNDUxNTczMywiZXhwIjoxNzM2MTM4MTMzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.HEtFyZ5JHRpWm3uW8T1_Mwj5iO2MfeSMCi7ZiYboget2UekU78Lj3QEr4i28aFsqYjygXND26m8bMg81angUlYGPaWwrB6IKZenc7Z-0Sf9vShHfl9kjFP3Rk8740ZIeG_KIGUQB8R7Ks4HmAILvWxlJdPYP0A53Sq538LFc0Cya_kMlonR0xWPDhJAlp54keXk3HQjoUDaXIbURa1wC_yp2WV3l658RXVEnE7yxWglpqvAoIPUWuPkj4uaNbOHiBcjHHFa95LJpXrVRryd6grpq61r5ymuSDs7UozTQH_n9-5Lk85dRz80XGNG1oAVOoq9SEr6hxwG8A9rYIdkGCH7PGa6tn01-oyzBTTFLP2iXb78ZYt_9UhR0_eP4a8vDAfZGifOysy8aa1JC3SXqds16m55hxdgeQlHrvNgZTvOF9nObK0bb4nHGmItFiFEJktEnT28Eyty5n269eMlsszZKFm8m-RWWgejs413UUR5Ggio_3dEUp-SRUfQhSvyr2GiZPjma3MddhyFCULNfLrnyigvMK_lsz636Ka1BvfYjra2ZuPXOmgK626K_Uo9d430Pl-00LkzTaYr0TkTjB5C-evmR8fB5P7lUSI38jRKhp4DmmsexbA2ss2Clgg8KRyRUF-xF0Iz597jFBcL7YmgXuCTLamgOBU3oYVLM_n4"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/api/products"
+			},
+			"response": [
+				{
+					"name": "List Product",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/products"
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 1,\n                \"category_id\": 1,\n                \"product_name\": \"abid clever dripper 102\",\n                \"short_description\": \"tes\",\n                \"long_description\": \"<p>tes</p>\",\n                \"product_price\": 480000,\n                \"product_quantity\": 10,\n                \"rating\": 4,\n                \"total_rating\": 7,\n                \"product_image\": \"1653382012.jpg\",\n                \"created_at\": \"2024-01-06 04:04:44\",\n                \"updated_at\": null,\n                \"category\": {\n                    \"id\": 1,\n                    \"name\": \"ubrukopi\",\n                    \"created_at\": \"2024-01-06 04:04:44\",\n                    \"updated_at\": null\n                }\n            },\n            {\n                \"id\": 2,\n                \"category_id\": 1,\n                \"product_name\": \"abid clever dripper 102\",\n                \"short_description\": \"tes\",\n                \"long_description\": \"<p>tes</p>\",\n                \"product_price\": 480000,\n                \"product_quantity\": 10,\n                \"rating\": 4,\n                \"total_rating\": 7,\n                \"product_image\": \"1653382012.jpg\",\n                \"created_at\": \"2024-01-06 04:04:44\",\n                \"updated_at\": null,\n                \"category\": {\n                    \"id\": 1,\n                    \"name\": \"ubrukopi\",\n                    \"created_at\": \"2024-01-06 04:04:44\",\n                    \"updated_at\": null\n                }\n            }\n        ],\n        \"first_page_url\": \"http://localhost:8000/api/products?page=1\",\n        \"from\": 1,\n        \"last_page\": 5,\n        \"last_page_url\": \"http://localhost:8000/api/products?page=5\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/products?page=1\",\n                \"label\": 1,\n                \"active\": true\n            },\n            {\n                \"url\": \"http://localhost:8000/api/products?page=2\",\n                \"label\": 2,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/products?page=3\",\n                \"label\": 3,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/products?page=4\",\n                \"label\": 4,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/products?page=5\",\n                \"label\": 5,\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/products?page=2\",\n                \"label\": \"Next\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": \"http://localhost:8000/api/products?page=2\",\n        \"path\": \"http://localhost:8000/api/products\",\n        \"per_page\": 2,\n        \"prev_page_url\": null,\n        \"to\": 2,\n        \"total\": 10\n    },\n    \"message\": \"Products retrieved successfully.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Product",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzBiNGY3ZWMzNjI4ZmUzM2Y5MmJjODEzNTdkYWZhNzNiMGZiZjcxMTVlOTQ2MmRjZjUwMTBjOWE2NDExZGVmYmY1ZmZkNjk5NDcwY2U3MjAiLCJpYXQiOjE3MDQ1MTU3MzMsIm5iZiI6MTcwNDUxNTczMywiZXhwIjoxNzM2MTM4MTMzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.HEtFyZ5JHRpWm3uW8T1_Mwj5iO2MfeSMCi7ZiYboget2UekU78Lj3QEr4i28aFsqYjygXND26m8bMg81angUlYGPaWwrB6IKZenc7Z-0Sf9vShHfl9kjFP3Rk8740ZIeG_KIGUQB8R7Ks4HmAILvWxlJdPYP0A53Sq538LFc0Cya_kMlonR0xWPDhJAlp54keXk3HQjoUDaXIbURa1wC_yp2WV3l658RXVEnE7yxWglpqvAoIPUWuPkj4uaNbOHiBcjHHFa95LJpXrVRryd6grpq61r5ymuSDs7UozTQH_n9-5Lk85dRz80XGNG1oAVOoq9SEr6hxwG8A9rYIdkGCH7PGa6tn01-oyzBTTFLP2iXb78ZYt_9UhR0_eP4a8vDAfZGifOysy8aa1JC3SXqds16m55hxdgeQlHrvNgZTvOF9nObK0bb4nHGmItFiFEJktEnT28Eyty5n269eMlsszZKFm8m-RWWgejs413UUR5Ggio_3dEUp-SRUfQhSvyr2GiZPjma3MddhyFCULNfLrnyigvMK_lsz636Ka1BvfYjra2ZuPXOmgK626K_Uo9d430Pl-00LkzTaYr0TkTjB5C-evmR8fB5P7lUSI38jRKhp4DmmsexbA2ss2Clgg8KRyRUF-xF0Iz597jFBcL7YmgXuCTLamgOBU3oYVLM_n4"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/api/products/1"
+			},
+			"response": [
+				{
+					"name": "Get Product",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8000/api/products/1"
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"success\": true,\r\n    \"data\": {\r\n        \"id\": 1,\r\n        \"category\": {\r\n            \"id\": 1,\r\n            \"name\": \"ubrukopi\"\r\n        },\r\n        \"product_name\": \"abid clever dripper 102\",\r\n        \"short_description\": \"tes\",\r\n        \"long_description\": \"<p>tes</p>\",\r\n        \"product_price\": 480000,\r\n        \"product_quantity\": 10,\r\n        \"rating\": 4,\r\n        \"total_rating\": 7,\r\n        \"product_image\": \"1653382012.jpg\"\r\n    },\r\n    \"message\": \"Product retrieved successfully.\"\r\n}"
+				}
+			]
+		}
+	]
+}
